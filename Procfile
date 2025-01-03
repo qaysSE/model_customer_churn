@@ -1,1 +1,2 @@
-web: gunicorn customer_churn:app
+
+web: gunicorn customer_churn.py
