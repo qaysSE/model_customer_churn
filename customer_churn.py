@@ -6,7 +6,7 @@ from sklearn.preprocessing import LabelEncoder
 app = Flask(__name__)
 
 # Load the pre-trained model
-model = joblib.load("/Users/qayshajibrahem/model01/bin/churn_model.pkl")
+model = joblib.load("bin/churn_model.pkl")
 
 # Preprocessing function to match model training
 def preprocess_data(data):
